@@ -1,0 +1,46 @@
+/* PC and tablet */
+@media (min-width: 740px) {
+    .container {
+        background-image: url(https://i.pinimg.com/originals/6c/70/28/6c70289162342d1bd2fb60cdf35eefc4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    header h2 {
+        overflow: hidden;  /* Ẩn đoạn text bị thừa */
+        white-space: nowrap;  /* không cho xuống dòng */
+        text-overflow: ellipsis; /* Cắt một đoạn text và thay thế bằng dấu ... */
+    }
+}
+ 
+/* tablet, mobile  */
+@media (max-width: 1023px) {
+    .player {
+        width: 90%;
+    }
+}
+
+/* Mobile  */
+@media (max-width: 739px) {
+    .player {
+        display: block;
+        max-width: 94%;
+        height: auto;
+        margin: 8px auto 0;
+        position: relative;
+    }
+    .dashboard {
+        width: 100%;
+        padding: 10px; 
+    }
+    .cd {
+        min-width: 150px;
+    }
+    .progress-area {
+        padding: 0 10px;
+    }
+    .playlist-area {
+        width: 100%;
+        padding: 5px;
+    }
+}

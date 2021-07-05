@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="shortcut icon" href="./assets/images/short-icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="dashboard">
+                <header>
+                    <h4>Đang phát:</h4>
+                    <h2></h2>
+                </header>
+    
+                <div class="cd">
+                    <div class="cd-thumbnail"></div>
+                </div>
+    
+                <div class="controls">
+                    <div class="btn btn-random">
+                        <span class="icon icon-random material-icons-outlined"> shuffle </span>
+                    </div>
+                    <div class="btn btn-previous">
+                        <span class="icon icon-prev material-icons-outlined"> skip_previous </span>
+                    </div>
+                    <div class="btn btn-tonggle-play">
+                        <span class="icon icon-play material-icons-outlined"> play_circle_filled</span>
+                        <span class="icon icon-pause material-icons-outlined"> pause_circle_filled</span>
+                    </div>
+                    <div class="btn btn-next">
+                        <span class="icon icon-next material-icons-outlined"> skip_next </span>
+                    </div>
+                    <div class="btn btn-repeat">
+                        <span class="icon icon-repeat material-icons-outlined"> repeat </span>
+                    </div>
+                </div>
+    
+                <div class="progress-area">
+                    <input class="progress" type="range" value="0" min="0" step="1" max="100">
+                    <div class="song-timer">
+                        <span class="current-time">0:00</span>
+                        <span class="max-duration">0:00</span>
+                    </div>
+                </div>
+    
+                <audio id="audio" src=""></audio>
+            </div>
+            
+            <div class="playlist-area">
+                <div class="playlist"></div>
+            </div>
+                
+        </div>
+
+        <footer>
+            Made by CK with <span>&#128150;</span>
+            <!-- <span class="material-icons-outlined"> favorite </span> -->
+        </footer>
+
+    </div>
+    
+
+    <script src="./assets/javascript/style.js"></script>
+
+</body>
+</html>
