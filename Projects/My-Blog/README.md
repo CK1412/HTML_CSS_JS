@@ -1,4 +1,4 @@
-**Live Demo :** [My Blog](https://ck1412.github.io/HTML-CSS_JS/Projects/My-Blog)
+**Live Demo :** [My Blog](https://ck1412.github.io/HTML_CSS_JS/Projects/My-Blog)
 > Website Template: [W3Schools](https://www.w3schools.com/w3css/tryw3css_templates_blog.htm)
 
 ---
