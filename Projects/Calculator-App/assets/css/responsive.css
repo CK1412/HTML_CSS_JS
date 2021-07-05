@@ -1,0 +1,18 @@
+
+/* PC  */
+@media (min-width: 1024px) {
+    .toggle-btn {
+        position: absolute;
+        top: 80px;
+        left: 68%;
+    }
+}
+
+/* PC, tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .toggle-btn {
+        position: absolute;
+        top: 80px;
+        left: 75%;
+    }
+}

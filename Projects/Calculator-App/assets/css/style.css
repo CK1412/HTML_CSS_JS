@@ -1,0 +1,142 @@
+
+:root {
+    --size: 60px;
+    --pink-color: #FF449F;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.light-mode {
+    --background-color: #EDEDFF;
+    --background-cal-color: #fff;
+    --text-color: #2A2D32;
+    --background-btn-color: #f0f2f8;
+    --pink-btn-color: #FFDDCC;
+    --green-color: #2EC973;
+    --orange-color: #FF9500;
+}
+.dark-mode {
+    --background-color: #526CA2;
+    --background-cal-color: #192220;
+    --text-color: #F7F9FA;
+    --background-btn-color: #8f9597;
+    --pink-btn-color: #7e1616;
+    --green-color: #2EC973;
+    --orange-color: #FF9500;
+}
+body {
+    width: 100vw;
+    height: auto;
+    background-color: var(--background-color);
+}
+.container {
+    width: 100%;
+    padding: 60px 0 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* bắt đầu css UI */
+.calculator-box {
+    width: 310px;
+    margin: 0 auto;
+    padding: 10px 15px 25px;
+    border-radius: 30px;
+    background-color: var(--background-cal-color);
+    transition: .3s ease-in-out;
+    overflow: hidden;
+}
+.screen {
+    width: 100%;
+    height: 150px;
+    padding: 30px 10px 50px 10px;
+    text-align: right;
+}
+.screen #display-history {
+    font-size: 26px;
+    color: gray;
+}
+.screen #result {
+    font-size: 40px;
+    color: var(--text-color);
+}
+.btn-delete {
+    cursor: default;
+    text-align: right;
+    margin: 6px 6px 20px;
+    border-bottom: thin solid rgb(230, 230, 230);
+}
+.btn-delete > button {
+    color: var(--green-color);
+    padding: 0 16px 20px 0;
+    background-color: transparent;
+    border: none;
+}
+.keyboard {
+    display: grid;
+    grid-template-columns: auto auto auto auto;  
+}
+.keyboard .btn {
+    width: var(--size);
+    height: var(--size);
+    margin: 5px;
+    border-radius: 40%;
+    border: none;
+    font-size: 20px;
+    background-color: var(--background-btn-color);
+    color: var(--text-color);
+    font-size: 24px;
+}
+.keyboard .btn:active {
+    background-color: lightgray;
+}
+.keyboard .btn-0 {
+    width: var(--size) * 2;
+    grid-column: 1 / 3;
+    border-radius: 26px;
+}
+.keyboard .btn-pink {
+    background-color: var(--pink-btn-color);
+    color: var(--pink-color);
+
+}
+.keyboard .btn-orange {
+    background-color: var(--orange-color);
+    color: white;
+}
+.keyboard .btn-green {
+    background-color: var(--green-color);
+    color: white;
+}
+
+/* thiết lập light mode vad dark mode */
+.toggle-btn {
+    width: 100px;
+    height: 50px;
+    background-image: url(../images/light-mode.png);
+    background-position: left;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+    margin: 20px auto 0;
+}
+.toggle-btn > .inner-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+.toggle-btn.active {
+    background-image: url(../images/dark-mode.png);
+    background-position: right;
+    background-size: cover;
+}
+.toggle-btn.active > .inner-circle {
+    margin-left: 50px;
+}
