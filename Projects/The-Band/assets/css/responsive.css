@@ -1,0 +1,93 @@
+/* PC  */
+@media (min-width: 1024px) {
+
+}
+
+/* tablet, mobile  */
+@media (max-width: 1023px) {
+    .button-btn {
+        padding: 15px 16px;
+    }
+    .contact-infor {
+        line-height: 2;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 18px;
+    }
+    #footer .socials-icon {
+        font-size: 28px;
+    }
+    #footer .socials-icon a {
+        margin: 0 8px;
+    }
+
+}
+
+/* Mobile  */
+@media (max-width: 739px) {
+    .full-width {
+        width: 100% !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav #subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav #subnav a {
+        color: white;
+        padding: 5px 41px
+    }
+    .slider-content h2 {
+        font-weight: 300;
+    }
+    #content .member-list,
+    #tour .place-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .member-list .member-item {
+        width: 70%;
+        margin-top: 20px;
+    }
+    .place-list .place-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #content .contact-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .row1 {
+        display: block;
+    }
+    .row1 div {
+        width: 100%;
+    }
+    .contact-form .form-control {
+        margin-top: 10px;
+    }
+    .row2 {
+        margin-top: 0;
+    }
+    .button-btn {
+        text-align: center;
+    }
+} 
