@@ -116,7 +116,7 @@ body {
 /* thiết lập light mode vad dark mode */
 .toggle-box {
     width: 310px;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 .toggle-btn {
     width: 100px;
@@ -127,7 +127,6 @@ body {
     border-radius: 30px;
     padding: 5px;
     transition: all .3s ease-in-out;
-    margin-top: 20px;
     margin-left: auto;
 }
 .toggle-btn > .inner-circle {
