@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(../image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sign-up-form {
+    width: 300px;
+    background: #fff;
+    margin: 6% auto 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.sign-up-form h1 {
+    color: #4169E1;
+    margin-bottom: 30px;
+}
+.input-box {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    outline: none;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.signup-btn {
+    background-color: #116dca;
+}
+.facebook-btn {
+    background-color: #1E90FF;
+}
+hr {
+    width: 80%;
+    margin: 20px auto 0;
+}
+.or {
+    width: 30px;
+    background: #fff;
+    margin: -10px auto 10px;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 70px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
