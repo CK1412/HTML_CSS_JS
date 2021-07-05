@@ -1,4 +1,4 @@
-**Live Demo :** [Music Player](https://ck1412.github.io/HTML-CSS_JS/Projects/Music-Player)
+**Live Demo :** [Music Player](https://ck1412.github.io/HTML_CSS_JS/Projects/Music-Player)
 > Tutorial : 
 >* [F8 Official](https://youtu.be/vAecGPWxzFE)
 >* [Coding Beast](https://youtu.be/o-RW6fW-EOQ)
