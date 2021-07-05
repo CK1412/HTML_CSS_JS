@@ -10,4 +10,4 @@
 |  05  | [My Blog](https://github.com/CK1412/HTML_CSS_JS/tree/master/Projects/My-Blog) | [Live Demo](https://ck1412.github.io/HTML-CSS_JS/Projects/My-Blog) | 
 |  06  | [The Band](https://github.com/CK1412/HTML_CSS_JS/tree/master/Projects/The-Band) | [Live Demo](https://ck1412.github.io/HTML-CSS_JS/Projects/The-Band) | 
 |  07  | [Music Player](https://github.com/CK1412/HTML_CSS_JS/tree/master/Projects/Music-Player) | [Live Demo](https://ck1412.github.io/HTML-CSS_JS/Projects/Music-Player) | 
-|  08  | [Caculator App](https://github.com/CK1412/HTML_CSS_JS/tree/master/Projects/Caculator-App) | [Live Demo](https://ck1412.github.io/HTML-CSS_JS/Projects/Caculator-App) | 
+|  08  | [Calculator App](https://github.com/CK1412/HTML_CSS_JS/tree/master/Projects/Calculator-App) | [Live Demo](https://ck1412.github.io/HTML-CSS_JS/Projects/Calculator-App) | 
