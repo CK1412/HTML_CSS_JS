@@ -69,7 +69,7 @@ html {
 .form-group.invalid .form-message {
     color: red;
 }
-.gender-item {
+/* .gender-item {
     display: inline-flex;
     align-items: center;
     margin-right: 15px;
@@ -78,7 +78,7 @@ input[name="gender"] {
     width: 15px;
     height: 15px;
     margin-right: 5px;
-}
+} */
 .form-submit {
     cursor: pointer;
     font-weight: 550;
