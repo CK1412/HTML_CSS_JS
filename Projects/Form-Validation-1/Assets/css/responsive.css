@@ -1,0 +1,9 @@
+
+/* Mobile  */
+@media (max-width: 739px) {
+    .form {
+        padding: 40px 20px;
+        margin: 10px;
+        align-self: center;
+    }
+}

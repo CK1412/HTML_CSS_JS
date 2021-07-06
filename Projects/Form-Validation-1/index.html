@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation 1</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="signup-form">
+            <h2 class="heading">Create Account</h2>
+    
+            <div class="form-group">
+                <label for="fullname" class="form-label">Full Name</label>
+                <input type="text" name="fullname" id="fullname" placeholder="Tran Huy Canh" class="form-control"> 
+                <span class="form-message"></span>
+            </div>
+    
+            <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="anhcanh@gmail.com" class="form-control"> 
+                <span class="form-message"></span>
+            </div>
+    
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="password" id="password" class="form-control"> 
+                <span class="form-message"></span>
+            </div>
+    
+            <div class="form-group">
+                <label for="password-confirm" class="form-label">Confirm Password</label>
+                <input type="password" name="password-confirm" id="password-confirm" class="form-control"> 
+                <span class="form-message"></span>
+            </div>
+
+            <!-- <div class="form-group left">
+                <label for="gender" class="form-label">Gender</label>
+                <div class="gender-item">
+                    <input type="radio" name="gender" value="male" class="form-control">
+                    Male
+                </div>
+                <div class="gender-item">
+                    <input type="radio" name="gender" value="female" class="form-control">
+                    Female
+                </div>   
+                <div class="gender-item">
+                    <input type="radio" name="gender" value="other" class="form-control">
+                    Other
+                </div> 
+                <span class="form-message"></span>
+            </div> -->
+
+            <!-- <div class="form-group">
+                <label for="country" class="form-label">Country</label>
+                <select name="country" id="country" class="form-control">
+                    <option value="">---Select---</option>
+                    <option value="VN">Việt Nam</option>
+                    <option value="JP">Japan</option>
+                    <option value="USA">America</option>
+                    <option value="CH">Switzerland</option>
+                    <option value="SG">Singapore</option>
+                </select>
+                <span class="form-message"></span>
+            </div> -->
+
+            <button type="submit" class="form-submit">Sign Up</button>
+
+            <p class="suggest sign-in">
+                I'm already a member. <a href="signin-form.html">Sign In</a>
+            </p>
+        </form>
+
+    </div>
+
+    <script src="./Assets/js/validator.js"></script>
+    <script>
+
+        Validator({
+            form: '#signup-form',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#fullname', '✖ You need to enter your full name.'),
+
+                Validator.isRequired('#email','✖ You need to enter your email.'),
+                Validator.isEmail('#email', '✖ This email is invalid.'),
+
+                Validator.isRequired('#password','✖ You need to enter a password.'),
+                Validator.minLength('#password', 8, '✖ Your password must be at least 8 characters.'),
+                
+                Validator.isRequired('#password-confirm','✖ You need to confirm the password.'),
+                Validator.isConfirmed('#password-confirm', function () {
+                    return document.querySelector('#signup-form #password').value
+                }, '✖ Your password does not match.'),
+
+                // Validator.isRequired('input[name="gender"]','✖ Select your gender.'),
+
+                // Validator.isRequired('#country','✖ Choose your country'),
+            ],
+
+            onSubmit: function (data) {
+                // Call API
+                console.log(data)
+            },
+        })
+
+    </script>
+
+</body>
+</html>

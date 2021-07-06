@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #934FE5;
+} 
+.left {
+    text-align: left;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background: var(--primary-color);
+}
+.container {
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+.form {
+    width: 360px;
+    min-width: 260px;
+    min-height: 100px;
+    align-self: flex-start;
+    padding: 40px;
+    margin: 20px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    text-align: center;
+}
+.form .heading {
+    font-family: 'Righteous', sans-serif;
+    margin-bottom: 30px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-label,
+.form-message {
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    padding: 3px 0 3px 10px;
+    font-family: 'Heebo', sans-serif;
+}
+.form-label {
+    color: gray;
+}
+.form-submit,
+.form-control {
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: none;
+    font-size: 16px;
+}
+.form-control {
+    background-color: white;
+}
+.form-control:focus,
+.form-control:hover {
+    border-color: var(--primary-color);
+}
+.form-group.invalid .form-control {
+    border-color: red;
+}
+.form-group.invalid .form-message {
+    color: red;
+}
+.gender-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+}
+input[name="gender"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.form-submit {
+    cursor: pointer;
+    font-weight: 550;
+    color: white;
+    background-color: var(--primary-color);
+}
+.suggest {
+    margin-top: 50px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+}
+.suggest > a {
+    text-decoration: none;
+}
