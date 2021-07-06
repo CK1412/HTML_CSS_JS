@@ -11,3 +11,4 @@
 |  06  | [The Band](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/The-Band) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/The-Band) | 
 |  07  | [Music Player](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Music-Player) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Music-Player) | 
 |  08  | [Calculator App](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Calculator-App) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Calculator-App) | 
+|  09  | [Form Validation 1](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Form-Validation-1) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Form-Validation-1) | 
