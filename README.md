@@ -1,7 +1,7 @@
 # Welcome to my personal github page. I'm CK  :blush:
 *This is the main repository for all the projects from small to large that I have done in the process of learning website design.*
 
-|  No  |        Project Folder      |   Live Demo   |
+|  No  |        Project             |   Live Demo   |
 |:----:|----------------------------|:-------------:|
 |  01  | [Login & Registration Form](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Login-Registration-Form) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Login-Registration-Form) |
 |  02  | [Signup Form](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Signup-Form) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Signup-Form) | 
