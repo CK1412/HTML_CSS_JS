@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation 2</title> 
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="container">
+            <form class="form" id="signup-form">
+                <h3>
+                    <img src="./assets/images/logo.png" alt="">
+                    Studio Ghibli
+                </h3>
+
+                <h1>Get Started</h1>
+                <p class="text-desc">Already have an account? <a class="link" href="sign-in.html">Sign In</a></p>
+
+                <div class="form-group">
+                    <div class="form-item">
+                        <input type="text" name="fullname" rules="required" id="fullname" class="form-control" placeholder=" ">
+                        <label for="fullname" class="form-label">Name</label>
+                    </div>
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-item">
+                        <input type="email" name="email" rules="required|email" id="email" class="form-control" placeholder=" ">
+                        <label for="email" class="form-label">Email</label>
+                    </div>
+                    <span class="form-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <div class="form-item">
+                        <input type="password" name="password" rules="required|min:8" id="password" class="form-control" placeholder=" ">
+                        <label for="password" class="form-label">Password</label>
+                    </div>
+                    <span class="form-message"></span>
+                </div>
+
+                <button type="submit" class="form-submit">Sign Up</button>
+
+                <p class="text-desc">
+                    By signing up, I agree to the <a href="" class="color-gray">Terms of Service</a> and <a href="" class="color-gray">Privacy Policy</a>
+                </p>
+            </form>
+
+            <div class="slider-frame">
+                <div class="slide-images">
+                    <div class="img-container">
+                        <img src="./assets/images/1.jpg" alt="">
+                    </div>
+                    
+                    <div class="img-container">
+                        <img src="./assets/images/2.jpg" alt="">
+                    </div>
+
+                    <div class="img-container">
+                        <img src="./assets/images/3.jpg" alt="">
+                    </div>
+
+                    <div class="img-container">
+                        <img src="./assets/images/4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+
+    <script src="./assets/js/validator.js"></script>
+    <script>
+
+        Validator({
+            form: '#signup-form',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            onSubmit: function(formData) {
+                console.log(formData)
+            }
+        })
+
+    </script>
+</body>
+</html>

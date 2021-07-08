@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation 2</title> 
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="signin-form">
+            <h3>
+                <img src="./assets/images/logo.png" alt="">
+                Studio Ghibli
+            </h3>
+            <h1>Get Started</h1>
+            <p class="text-desc">If you don't have an account. You can <a class="link" href="index.html">Sign Up here</a></p>
+
+            <div class="form-group">
+                <div class="form-item">
+                    <input type="email" name="email" rules="required|email" id="email" class="form-control" placeholder=" ">
+                    <label for="email" class="form-label">Email</label>
+                </div>
+                <span class="form-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <div class="form-item">
+                    <input type="password" name="password" rules="required|min:8" id="password" class="form-control" placeholder=" ">
+                    <label for="password" class="form-label">Password</label>
+                </div>
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" name="remember" id="remember"> 
+                <label for="remember" class="color-gray">Remember me</label>
+            </div>
+
+            <button type="submit" class="form-submit">Sign In</button>
+
+            <p class="text-desc">
+                <a href="" class="color-gray" >Forgot your password?</a>
+            </p>
+        </form>
+
+            <div class="slider-frame">
+                <div class="slide-images">
+                    <div class="img-container">
+                        <img src="./assets/images/1.jpg" alt="">
+                    </div>
+                    
+                    <div class="img-container">
+                        <img src="./assets/images/2.jpg" alt="">
+                    </div>
+
+                    <div class="img-container">
+                        <img src="./assets/images/3.jpg" alt="">
+                    </div>
+
+                    <div class="img-container">
+                        <img src="./assets/images/4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+
+    <script src="./assets/js/validator.js"></script>
+    <script>
+
+        Validator({
+            form: '#signin-form',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            onSubmit: function(formData) {
+                console.log(formData)
+            }
+        })
+
+    </script>
+</body>
+</html>
