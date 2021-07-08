@@ -13,3 +13,12 @@
 |  08  | [Calculator App](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Calculator-App) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Calculator-App) | 
 |  09  | [Form Validation 1](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Form-Validation-1) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Form-Validation-1) | 
 |  10  | [Form Validation 2](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Form-Validation-2) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Form-Validation-2) | 
+
+---
+
+|  No  |        Mini UI        |   Live Demo   |
+|:----:|-----------------------|:-------------:|
+|  01  | [Tabs UI](https://github.com/CK1412/HTML_CSS_JS/tree/main/Mini-UI/Tabs-UI) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Mini-UI/Tabs-UI) |
+|  02  | [Heart mouse moving effect](https://github.com/CK1412/HTML_CSS_JS/tree/main/Mini-UI/Heart-mouse-moving-effect) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Mini-UI/Heart-mouse-moving-effect) |
+|  03  | [Auto image slideshow](https://github.com/CK1412/HTML_CSS_JS/tree/main/Mini-UI/Auto-image-slideshow) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Mini-UI/Auto-image-slideshow) |
+|  04  | [Effect focus for input](https://github.com/CK1412/HTML_CSS_JS/tree/main/Mini-UI/Effect-focus-for-input) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Mini-UI/Effect-focus-for-input) |
