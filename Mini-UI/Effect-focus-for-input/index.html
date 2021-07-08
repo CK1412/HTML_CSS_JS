@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effect focus for input</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .form {
+            margin: 30px;
+        }
+        .form-group {
+            width: 500px;
+            position: relative;
+        }
+        .form-control {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid gray;
+        }
+        .form-control:focus {
+            border-color: LimeGreen;
+        } 
+        .form-label {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 15px;
+            color: gray;
+            transition: .25s ease;
+            user-select: none;
+            pointer-events: none;
+        }
+        .form-control:not(:placeholder-shown) + .form-label,
+        .form-control:focus + .form-label {
+            top: 0;
+            left: 10px;
+            display: inline-block;
+            background-color: white;
+            padding: 0 5px;
+            color: LimeGreen;
+        }
+        /* 
+            - Ta sử dụng placeholder-show để khi focus mà có chữ được nhập vào thì
+            form-label sẽ không di chuyển về vị trí cũ
+            - Ban đầu ta để placeholder=" " để khởi tạo có placehoder
+            - Khi có dữ liệu thì sẽ không còn placeholder nên dùng not(:placeholder-shown)
+            có nghĩa là không có placeholder nữa, khi này cái form-label sẽ được thực thi nên sẽ
+            không về vị trí cũ của nó nữa
+         */
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+        <div class="form-group">
+            <input type="text" name="fullname" id="fullname" class="form-control" placeholder=" ">
+            <label for="fullname" class="form-label">Full Name</label>
+        </div>
+    </div>
+</body>
+</html>
