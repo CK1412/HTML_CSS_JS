@@ -5,6 +5,7 @@
 }
 body {
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .container {
     width: 320px;
