@@ -13,6 +13,7 @@
 |  08  | [Calculator App](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Calculator-App) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Calculator-App) | 
 |  09  | [Form Validation 1](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Form-Validation-1) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Form-Validation-1) | 
 |  10  | [Form Validation 2](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Form-Validation-2) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Form-Validation-2) | 
+|  11  | [Weather App](https://github.com/CK1412/HTML_CSS_JS/tree/main/Projects/Weather-App) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Projects/Weather-App) | 
 
 ---
 
