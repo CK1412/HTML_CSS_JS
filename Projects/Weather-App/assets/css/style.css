@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-size: cover;
+}
+.container {
+    width: 320px;
+    height: 600px;
+    /* background: url(../images/background.png); */
+    background: #000000d0;
+    background-size: cover;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+/* main-section  */
+
+.search-bar {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto 25px;
+    border-bottom: 1px solid white;
+}
+.search-bar .search-icon {
+    margin-right: 10px;
+}
+.search-bar #search-city {
+    color: white;
+    padding: 5px;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.search-bar #search-city::placeholder {     
+    color: #DDDDDD;
+}
+.temperature-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.temperature-area .weather-icon {
+    width: 80px;
+}
+.temperature-area .temperature {
+    font-size: 56px;
+    width: 80px;
+    position: relative;
+    left: -10px;
+}
+.temperature-area .temperature::after {
+    content: "o";
+    font-size: 25px;
+    position:absolute;
+    top: -3px;
+}
+.temperature-range {
+    margin-bottom: 5px;
+}
+.weather-state {
+    text-transform: capitalize;
+}
+
+/* additional section */
+
+.additional-section {
+    width: 110%;
+    height: 255px;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    padding: 0 20px;
+    margin: 45px auto 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.additional-section::after {
+    content: "Chi tiết";
+    font-size: 14px;
+    position: absolute;
+    top: -23px;
+    left: 25px;
+}
+.additional-section .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row {
+    font-size: 16px;
+}
+.row .label {
+    width: 50%;
+    text-align: left;
+}
+.row .value {
+    width: 50%;
+    text-align: right;
+}
+.copyright {
+    font-size: 12px;
+    float: left;
+    text-align: left;
+}
+.time-info {
+    font-size: 12px;
+    text-align: right;
+}
+
+/*  */
+.small-icons {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+.small-icons > img {
+    width: 100%;
+}
