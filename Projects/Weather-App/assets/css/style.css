@@ -51,6 +51,11 @@ body {
 .search-bar #search-city::placeholder {     
     color: #DDDDDD;
 }
+.title-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .temperature-area {
     display: flex;
     justify-content: center;
