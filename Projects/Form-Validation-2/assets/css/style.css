@@ -81,6 +81,7 @@ body {
     display: inline-block;
     background-color: var(--white-color);
     padding: 0 5px;
+    color: black;
 }
 .form-control,
 .form-submit {
