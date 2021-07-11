@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0F1123;
+}
+.loading {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+}
+.dot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(calc(var(--value) * 45deg));
+}
+.dot::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    filter: hue-rotate(calc(var(--value) * 45deg));
+    animation: loading 1s infinite ease;
+    animation-delay: calc(var(--value) * 0.125s);
+}
+
+@keyframes loading {
+    to {
+        transform: scale(0.3)
+    }
+}
+
+/* 
+- vòng tròn 360deg mà có 8 hình tròn nên mỗi khối sẽ xoay ngang: 360 / 8 = 45deg
+- để animation hoạt động tuần tự trong 1s, mà có 8 hình tròn nên: 
+    1 / 8 = 0.125s
+=> cái hình tròn đầu sẽ là 0.125, cứ thế tăng 0.125 cho đến hết
+*/
