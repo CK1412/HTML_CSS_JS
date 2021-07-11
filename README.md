@@ -23,3 +23,4 @@
 |  02  | [Heart mouse moving effect](https://github.com/CK1412/HTML_CSS_JS/tree/main/Mini-UI/Heart-mouse-moving-effect) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Mini-UI/Heart-mouse-moving-effect) |
 |  03  | [Auto image slideshow](https://github.com/CK1412/HTML_CSS_JS/tree/main/Mini-UI/Auto-image-slideshow) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Mini-UI/Auto-image-slideshow) |
 |  04  | [Effect focus for input](https://github.com/CK1412/HTML_CSS_JS/tree/main/Mini-UI/Effect-focus-for-input) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Mini-UI/Effect-focus-for-input) |
+|  04  | [Dots Loading](https://github.com/CK1412/HTML_CSS_JS/tree/main/Mini-UI/Dots-loading) | [Live Demo](https://ck1412.github.io/HTML_CSS_JS/Mini-UI/Dots-loading) |
